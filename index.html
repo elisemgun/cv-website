@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My CV Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+  <img id="profile-pic" src="profile.jpg" alt="Profile Picture">
+  <h1 id="header-name"></h1>
+  <p id="header-intro"></p>
+</header>
+
+<div class="content-wrapper">
+  <section id="work">
+    <h2>Work History</h2>
+    <div id="work-container" class="job">
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div id="skills-container">
+    </div>
+  </section>
+</div>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    <input type="submit" value="Send">
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
